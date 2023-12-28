@@ -1,0 +1,97 @@
+<style>
+    body{
+        background: white;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        padding: 1em;
+        text-align: center;
+        font-size: 50px;
+        color: black;
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+       padding: 2em;
+       flex-wrap: wrap;
+    }
+    .com{
+        background: white;
+        padding: 0px 2em 2em 2em;
+        border-radius: 25px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+        margin: 1em;
+        flex: 1 1 350px;
+        transition: transform 0.3s ease;
+    }
+    .com h2{
+        font-size: 50px;
+        color: black;
+        text-align:center;
+    }
+    button{
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px 50px;
+        background-color:blue;
+        border-radius: 25px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: lightblue;
+    }
+    .com:hover{
+        transform: scale(1.05);
+    }
+</style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Choose Your Plan</h1>
+    </header>
+
+    <section>
+        <div class="com">
+            <h2>Basic</h2>
+            <p class="price">$9.99/month</p>
+            <ul>
+                <li>1 User</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Get Started</button>
+        </div>
+
+        <div class="com">
+            <h2>Pro</h2>
+            <p class="price">$19.99/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Get Started</button>
+        </div>
+
+        <div class="com">
+            <h2>Premium</h2>
+            <p class="price">$29.99/month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+</body>
+</html>
